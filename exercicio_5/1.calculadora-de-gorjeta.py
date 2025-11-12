@@ -1,3 +1,4 @@
+
 def calcular_gorjeta(valor_conta: float, porcentagem_gorjeta: float) -> float:
     """
     Calcula o valor da gorjeta baseado na conta total e porcentagem.
@@ -32,3 +33,5 @@ def programa_gorjeta():
 
     except ValueError:
         print("Erro: Digite apenas valores numéricos válidos.")
+
+programa_gorjeta()

@@ -14,3 +14,5 @@ def verifica_palindromo():
     else:
         print(f"A palavra/frase '{palavra_original}' não é um palíndromo.")
         print(f"(Lida ao contrário: {palavra_invertida})")
+
+verifica_palindromo()
